@@ -39,7 +39,7 @@ Example:
     (hbnb) all
 to print all models
 
-    (hbnb) all < Model_name >
+(hbnb) all < Model_name >
 to print all < Model_name >
 
 # Quit Command
