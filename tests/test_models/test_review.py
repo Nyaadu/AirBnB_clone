@@ -162,9 +162,9 @@ class TestReview_to_dict(unittest.TestCase):
 
     def test_to_dict_contains_added_attributes(self):
         rv = Review()
-        rv.middle_name = "Holberton"
-        rv.my_number = 98
-        self.assertEqual("Holberton", rv.middle_name)
+        rv.middle_name = "My First Model"
+        rv.my_number = 89
+        self.assertEqual("My First Model", rv.middle_name)
         self.assertIn("my_number", rv.to_dict())
 
     def test_to_dict_datetime_attributes_are_strs(self):
