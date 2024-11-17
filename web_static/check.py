@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-W3C validator 
+W3C validator
 
 For HTML and CSS files.
 
