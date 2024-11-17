@@ -46,6 +46,7 @@ class TestBaseModel(unittest.TestCase):
     def test_to_json(self):
         '''tests to_json method with diffs in output & in-memory objects'''
 
+
 if __name__ == '__main__':
     '''__name__'''
     unittest.main()
