@@ -26,7 +26,7 @@ Example:
 
 # Show Command
 >Show Command to prints the string representation of an
-instance based on the < Model_name > and < id >  
+instance based on the < Model_name > and < id >
 Example:
 
     (hbnb) show < Model_name > < id >
