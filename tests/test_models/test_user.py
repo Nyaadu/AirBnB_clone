@@ -156,9 +156,9 @@ class TestUser_to_dict(unittest.TestCase):
 
     def test_to_dict_contains_added_attributes(self):
         us = User()
-        us.middle_name = "Holberton"
-        us.my_number = 98
-        self.assertEqual("Holberton", us.middle_name)
+        us.middle_name = "My First Model"
+        us.my_number = 89
+        self.assertEqual("My First Model", us.middle_name)
         self.assertIn("my_number", us.to_dict())
 
     def test_to_dict_datetime_attributes_are_strs(self):
